@@ -1,0 +1,61 @@
+Model RelationShip
+---------------------
+One to One
+    -hasOne(p)
+    -belongsTo(c)
+
+One to Many
+    -hasMany(p)
+    -belongsTo(c)
+
+Many to Many
+    -belongsToMany
+    -pivot table
+
+
+Item(CRUD)
+-----------
+create - show form , store form
+
+retrive -
+
+update
+
+delete
+
+
+
+
+
+Authentication
+---------------
+-installcation
+-node js (call npm in terminal)
+-Docs
+-Sercurity/Authentication
+-Commands
+-composer require laravel/ui
+-php artisan ui bootstrap --auth
+-npm install
+-npm run dev
+_Route
+-localhost:8000/login
+-localhost:/register
+
+
+
+
+
+
+
+
+
+GET
+----
+-git init
+-git add
+-git commit -m "message"
+-git remote add origin url
+-get push -u origin master
+
+-git pull
